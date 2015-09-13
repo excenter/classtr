@@ -15,7 +15,7 @@
 	</head>
 	<body>
 
-		<!-- Banner -->
+		<!-- BANNER -->
 			<section id="banner">
 				<h2>
 				<strong>Classtr</strong>
@@ -30,24 +30,16 @@
 				-->				
 				
 				<ul class="actions">
-					<li><a href="#" class="button special">Get started</a></li>
+					<li><a href="#" class="button special">Eat shit!</a></li>
 				</ul>
 			</section>
 
 
 		<!-- d3.js integration goes here on page -->
-		<ol id="tree_d3"></ol>
+		<div id="d3_classtr"></div>
 
 
-		
-		<!-- One -->
-
-
-
-
-
-
-		<!-- Two -->
+		<!-- SECTION 2 - EMAIL FEEDBACK -->
 			<section id="two" class="wrapper style2 special">
 				<div class="inner narrow">
 					<header>
@@ -73,6 +65,7 @@
 				</div>
 			</section>
 
+<section> <!-- DUMMY PLACEHOLDER!!!! -->
 		<!-- Three -->
 		<!--
 			<section id="three" class="wrapper">
@@ -478,15 +471,18 @@ print 'It took ' + i + ' iterations to sort the deck.';
 				</div>
 			</section>
 		-->
+</section>
+		
 
-		<!-- Footer -->
+		<!-- FOOTER -->
 			<footer id="footer">
 				<div class="copyright">
 					&copy; Classtr Design: <a href="http://templated.co/">TEMPLATED</a>.
 				</div>
 			</footer>
 
-		<!-- Scripts -->
+		<!-- SCRIPTS -->
+			<script src="assets/jquery.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
@@ -496,8 +492,19 @@ print 'It took ' + i + ' iterations to sort the deck.';
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
 			<!--jQuery implementation -->
 			<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+			<!--JQuery load command for d3 viz.  **UPDATE!! -->
+			<script>
+				$(function(){ 
+					$("#tree_d3").load("/resources/treed3_index.html")}
+			</script>
+
+    <script> 
+    $(function(){
+      $("#includedContent").load("b.html"); 
+    });
+    </script> 
 			
-			<!--JQuery load command for d3 viz.  **UPDATE!!
-			<script> $( "#tree_d3" ).load( "/resources/treed3_index.html tree_d3" )</script>
+			
+			
 	</body>
 </html>
