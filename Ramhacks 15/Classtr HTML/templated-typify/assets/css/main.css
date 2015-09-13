@@ -15,7 +15,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline;
+		vertical-align: center;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -45,7 +45,7 @@
 	}
 
 	body {
-		-webkit-text-size-adjust: none;
+		-webkit-text-size-adjust: auto;
 	}
 
 /* Box Model */
@@ -2754,7 +2754,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 1em 0 1em 0;
 		position: relative;
 	}
 
@@ -3510,9 +3510,9 @@
 /* Banner */
 
 	#banner {
-		background-color: #00cdcf;
+		background-color: #000000;
 		color: #ffffff;
-		padding: 8em 0 6em 0;
+		padding: 6em 0 6em 0;
 		text-align: center;
 	}
 
@@ -3521,7 +3521,7 @@
 		}
 
 		#banner a {
-			color: #00cdcf;
+			color: #F8B800;
 		}
 
 		#banner strong, #banner b {
@@ -3633,7 +3633,7 @@
 			border-style: double solid;
 			border-width: 4px 1px;
 			font-size: 2.4em;
-			line-height: 1.35em;
+			line-height: 2em;
 			margin: 0 auto 1em;
 			padding: 1.1em;
 			position: relative;
@@ -3648,7 +3648,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				padding: 8em 0 6em 0;
+				padding: 2em 0 1em 0;
 			}
 
 		}
@@ -3656,7 +3656,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 6em 0 4em 0;
+				padding: 4em 0 4em 0;
 			}
 
 				#banner h2 {
@@ -3668,7 +3668,7 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 4em 2em 2em 2em;
+				padding: 2em 1em 1em 1em;
 			}
 
 				#banner h2 {
@@ -3725,7 +3725,7 @@
 	#footer {
 		background-color: #f7f7f7;
 		color: #444;
-		padding: 5em 0 4em 0;
+		padding: 1em 0 0.5em 0;
 		position: relative;
 	}
 
