@@ -14,18 +14,13 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
-	
-	<!-- d3.js API loaded at beginning -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
 
 		<!-- Banner -->
 			<section id="banner">
 				<h2>
-				<center>
-				<strong>classTr</strong>
+				<strong>Classtr</strong>
 				<br>
 				<a>The smartest way to plan your semester.</a></h2>
-				<center>
 				<p>A Trayus Technologies product</p>
 				
 				
@@ -41,6 +36,7 @@
 
 
 		<!-- d3.js integration goes here on page -->
+		<ol id="tree_d3"></ol>
 
 
 		
@@ -496,6 +492,12 @@ print 'It took ' + i + ' iterations to sort the deck.';
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<!-- d3.js API -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+			<!--jQuery implementation -->
+			<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+			
+			<!--JQuery load command for d3 viz.  **UPDATE!!
+			<script> $( "#tree_d3" ).load( "/resources/treed3_index.html tree_d3" )</script>
 	</body>
 </html>
